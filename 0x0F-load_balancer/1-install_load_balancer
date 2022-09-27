@@ -16,8 +16,8 @@ echo "
    balance roundrobin
    option httpclose
    option forwardfor
-   server 35-web-01 34.75.10.160:80 check
-   server 35-web-01 35.231.86.187:80 check
+   server 35-web-01 3.234.214.113:80 check
+   server 35-web-01 44.192.19.155:80 check
 " >> /etc/haproxy/haproxy.cfg
 
 service haproxy start
